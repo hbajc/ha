@@ -1,13 +1,13 @@
 # https://ghfast.top/github.com/AlexxIT/builder/blob/master/builder.sh
-name: go2rtc-rockchip
+name: go2rtc latest rockchip
 description: 硬件转码Intel（VAAPI）和树莓派（V4L2）
 url: https://ghfast.top/github.com/AlexxIT/go2rtc
-image: docker.1ms.run/alexxit/go2rtc:latest-rockchip
-arch: [ amd64, aarch64, i386, armv7 ]
+image: docker.1ms.run/alexxit/go2rtc
+arch: [ aarch64 ]
 
 # https://developers.home-assistant.io/docs/add-ons/configuration
-version: 1.9.9
-slug: go2rtc-rockchip
+version: go2rtc-rockchip
+slug: go2rtc-latest-rockchip
 init: false
 startup: system
 host_network: true
